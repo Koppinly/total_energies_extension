@@ -4,7 +4,7 @@ In the interest of reusing the HTML block in various experiments, I've created a
 
 Steps to Implement
 
-Locate the asu_mock_up_extension.json file provided in this repo.
+Locate the total_energies.json file provided in this repo.
 Copy the JSON file.
 Visit Implementation -> Extensions (Tab) --> Create New Extension --> Using JSON
 Paste the JSON in the field and save
