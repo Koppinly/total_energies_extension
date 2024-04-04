@@ -1,0 +1,73 @@
+@media (min-width:975px) {
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+  .lg\:col-start-2 {
+    grid-column-start: 2;
+  }
+}
+  
+  .cards > a {
+    color: #374649;
+    transition: all .5s ease;
+    text-decoration: none;
+    border: 1px solid #fff;
+  }
+  .cards > a:hover {
+    text-decoration: none;
+    box-shadow: none;
+    border-color: #b7cbd3;
+  }
+  #block-faqmaincontactblock {
+    max-width: 840px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .quickest {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    left: auto;
+    right: 0;
+    top: 60px;
+    background-color: var(--Flat-Yellow, #FFE74F);
+    width: 161px;
+    height 30px;
+    padding: 4px 15px 4px 10px;
+    border-radius: 70px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  @media (min-width: 485px) {
+    .quickest {
+      position: relative;
+      left: 300px;
+      top: -270px;
+      right: auto;
+      width: 161px;
+      height 40px;
+      padding: 7px 15px 7px 10px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  @media (min-width: 768px) {
+    .quickest {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      left: auto;
+    }
+  }
+  @media (min-width: 905px) {
+    .quickest {
+      right: -30px;
+    }
+  }
